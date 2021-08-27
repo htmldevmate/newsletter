@@ -1,0 +1,566 @@
+/* ======================= Typography =======================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Teko:wght@600&display=swap');
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Teko', sans-serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 120px;
+    line-height: 130px;
+    color: white;
+}
+
+h2 {
+    font-size: 75px;
+    line-height: 85px;
+    color: white;
+}
+
+h3 {
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: white;
+    margin: 0;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease-in-out !important;
+    -moz-transition: all 300ms ease-in-out !important;
+    -ms-transition: all 300ms ease-in-out !important;
+    -o-transition: all 300ms ease-in-out !important;
+    transition: all 300ms ease-in-out !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+/* ======================= Hero =======================*/
+.hero {
+    background: url("https://cdn.shopify.com/s/files/1/0279/7938/2866/files/hero1.png?v=1630059204") no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding: 40px 0 240px;
+}
+
+.hero-wrapper {
+    width: 100%;
+    max-width: 805px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-bottom: 50px;
+}
+
+.hero-box-txt {
+    background: #F05649;
+    padding: 25px 35px;
+    margin-top: 40px;
+}
+
+.hero-box-txt h2,
+.hero-box-txt h3 {
+    color: #F8D218;
+}
+
+
+/* ======================= Social  =======================*/
+.lets-social {
+    background: url("https://cdn.shopify.com/s/files/1/0279/7938/2866/files/social-section.png?v=1630061212") no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 60px 0 50px;
+}
+
+.social-wrapper {
+    width: 100%;
+    max-width: 1090px;
+    margin: 0 auto;
+}
+
+.lets-social h3 {
+    margin-bottom: 20px;
+}
+
+/* social links */
+.social-links {
+    margin-bottom: 50px;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.social-links ul li img {
+    margin-right: 20px;
+    position: relative;
+    top: 15px;
+}
+
+.social-links ul li a,
+.twitter {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+
+.social-links ul li a:hover,
+.twitter:hover {
+    color: #F8D218;
+}
+
+
+.posters-list ul {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: space-between;
+}
+
+.posters-list ul li {
+    width: 32%;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* ======================= why order =======================*/
+.why-order {
+    padding: 120px 0;
+    background: url("https://cdn.shopify.com/s/files/1/0279/7938/2866/files/why-order.png?v=1630063013") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.why-order-list ul {
+    padding-left: 35px;
+}
+
+.hand {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.content-wrapper {
+    width: 100%;
+    max-width: 875px;
+    margin: 0 auto;
+}
+
+
+/* ======================= Locations =======================*/
+.locations {
+    padding: 60px 0 120px;
+    background: #CDDC28;
+    position: relative;
+
+}
+
+.locations h3 {
+    margin-bottom: 100px;
+
+}
+
+.map {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+
+
+.locations-list {
+    float: right;
+    position: relative;
+    z-index: 9;
+}
+
+.locations-list ul li {
+    display: block;
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    line-height: 37px;
+    letter-spacing: 4px;
+
+}
+
+.locations-list ul li a {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.locations-list ul li a:hover {
+    color: #00A9A2;
+}
+
+
+/* ======================= Quetions =======================*/
+.questions {
+    padding: 80px 0;
+    background: url("https://cdn.shopify.com/s/files/1/0279/7938/2866/files/questions.png?v=1630065236") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.two-col-outer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.half-col {
+    width: 50%;
+    padding: 0 20px;
+}
+
+
+.questions h3 {
+    color: #F8D218;
+    margin-bottom: 0;
+}
+
+
+.half-col.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+.col-text {
+    margin-left: 30px;
+}
+
+.half-col a:hover {
+    color: #181642;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mob-only {
+    display: none;
+}
+
+/* ======================= Footer =======================*/
+.footer {
+    background: #181642;
+    padding: 30px 0 20px;
+}
+
+.footer-wrapper {
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+
+}
+
+
+
+/* Extra large devices (large desktops, 1366px and down) */
+@media (max-width: 1366px) {}
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+    .hero {
+        padding: 30px 60px 130px;
+    }
+
+    .logo {
+        max-width: 240px;
+        margin-bottom: 20px;
+    }
+
+    h1,
+    h2,
+    h3 {
+        letter-spacing: 2px;
+    }
+
+    h1 {
+        font-size: 45px;
+        line-height: 47px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .hero h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .hero-box-txt h3 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .hero-box-txt {
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 20px 30px;
+    }
+
+    .social-links ul li a,
+    .twitter {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .lets-social {
+        padding: 30px 60px;
+    }
+
+    .posters-list ul li {
+        width: 30%;
+    }
+
+    .lets-social h3 {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .social-links ul li img {
+        width: 22px;
+        margin-right: 10px;
+        top: 8px;
+    }
+
+    .social-links ul li {
+        margin: 0 15px;
+    }
+
+    .social-links {
+        margin-bottom: 25px;
+    }
+
+    .why-order {
+        padding: 50px;
+    }
+
+    .hand {
+        max-width: 200px;
+    }
+
+    .why-order h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+
+
+    .why-order-list ul {
+        padding-left: 15px;
+    }
+
+    .why-order-list ul li {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+
+    .locations {
+        padding: 30px;
+    }
+
+
+    .locations h3 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+
+
+    .desktop-only {
+        display: none;
+    }
+
+    .mob-only {
+        display: inline-block;
+    }
+
+
+    .locations-list ul li {
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+
+    .questions {
+        padding: 50px;
+    }
+
+    .questions h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .two-col-outer {
+        display: block;
+    }
+
+    .half-col {
+        width: 100%;
+        padding: 0;
+    }
+
+    .half-col.text-center {
+        margin-bottom: 20px;
+    }
+
+    .half-col p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .half-col.flex img {
+        width: 70px;
+    }
+
+    .half-col.flex {
+        -webkit-justify-content: center;
+        justify-content: center;
+
+    }
+
+
+
+
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+    .hand {
+        max-width: 150px;
+    }
+
+    .map {
+        max-width: 200px;
+    }
+
+    .logo {
+        max-width: 150px;
+    }
+}
